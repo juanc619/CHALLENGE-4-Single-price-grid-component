@@ -1,3 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+--Cyan: hsl(179, 62%, 43%);
+--lightCyan: hsl(179, 47%, 52%);
+--BrightYellow: hsl(71, 73%, 54%);
+--LightGray: hsl(204, 43%, 93%);
+--GrayishBlue: hsl(218, 22%, 67%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--LightGray);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+/* Mobile */
+
+.main_container {
+    background-color: white;
+    width: 313px;
+    height: 730px;
+    margin: 70px auto 70px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.our_community {
+    padding: 8px 24px 24px 24px;
+    height: 270px;
+    box-sizing: border-box;
+}
+
+.our_community h2.title {
+    font-size: 1.2em;
+    color: var(--Cyan);
+}
+
+.our_community h2.promo {
+    color: var(--BrightYellow);
+    font-size: 1em;
+}
+
+.our_community p {
+    color: var(--GrayishBlue);
+    font-size: 0.86em;
+    line-height: 27px;
+    margin-top: 16px;
+}
+
+.monthly_subscription {
+    background-color: var(--Cyan);
+    padding: 12px 24px 24px 24px;
+    height: 230px;
+    box-sizing: border-box;
+    color: var(--LightGray);
+}
+
+.monthly_subscription h2 {
+    font-size: 1em;
+    margin-bottom: 18px;
+}
+
+.price {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.monthly_subscription p {
+    margin-top: 8px;
+}
+
+button {
+    margin-top: 14px;
+    background-color: var(--BrightYellow);
+    border-radius: 5px;
+    width: 100%;
+    height: 48px;
+    border-style: none;
+    color: var(--LightGray);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.why_us {
+    background-color: var(--lightCyan);
+    padding: 8px 24px 24px 24px;
+    height: 230px;
+    box-sizing: border-box;
+    color: var(--LightGray);
+}
+
+.why_us h2 {
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+    margin-left: -40px;
+    font-size: 0.85em;
+    line-height: 20px;
+    font-weight: 300;
+}
 
 
 
@@ -23,43 +129,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer */
 
 .footer { 
     font-size: 11px; 
